@@ -1,0 +1,630 @@
+*{
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+}
+*::selection{
+    background-color: #2e94b9;
+    color: white;
+}
+html{
+    font-size: 60%;
+    background-color: #f0fbff;
+}
+.heading{
+   margin: 3rem 0;
+   font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #2e94b9 ;
+    color: #475053;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: #475053;
+    
+}
+header .name span{
+    font-size: 3.5rem;
+    color: white;
+}
+header .name{
+  font-size: 2.8rem;
+  color: #acdcee;
+}
+header .navbar{
+    margin-right:5%;
+ 
+}
+header .navbar a{
+    font-size: 2rem;
+    margin: 0 2rem;
+    font-weight: 530;
+    color: #acdcee;
+}
+header .navbar a:hover{
+    color: white;
+}
+.about{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.about .content{
+    font-size: 2rem;
+    padding: 0 15rem;
+    margin-top: 8rem;
+    box-shadow: 0px 0px 5px 5px rgba(111, 127, 141, 0.8)
+}
+.about .image{
+    margin-top: 3rem;
+}
+.about .image img{
+    height: 17rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.skills{
+    display: flex;
+    padding: 0 15rem;
+    justify-content:space-between;
+    margin-bottom: 15rem;
+    
+}
+.skills .skillsl{
+    width: 40%;
+
+}
+.skills .skillsl>p{
+  margin: 2.5rem 0rem;
+  font-weight: 550;
+  color: #475053;
+ 
+}
+.skills .skillsr{
+    width: 40%;
+}
+.skills .skillsr>p{
+  margin: 2.5rem 0rem;
+  font-weight: 550;
+  color: #475053;
+}
+.education{
+padding: 0 10rem;
+display: flex;
+flex-direction: column;
+margin-bottom: 15rem;
+}
+.education .box{
+    margin:3rem 0;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    box-shadow: 0px 0px 5px 5px rgba(111, 127, 141, 0.8);
+}
+
+.education .box .name{
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.education .box .class{
+    padding-left: 2rem;
+}
+.education .box .date{
+    padding-left: 2rem;
+}
+.hobbies{
+    padding: 0 15rem;
+    margin: 6rem 0;
+}
+.hobbies .box{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 5px rgba(111, 127, 141, 0.8);
+    margin-bottom: 3rem;
+}
+.hobbies .box .boxright img{
+    height: 18em;
+    width: 40rem;
+ 
+
+}
+.hobbies .box .boxleft{
+    text-align: center;
+}
+.hobbies .box .boxleft>h1{
+  margin: 3rem 0;
+  font-weight: 550;
+  color: #475053;
+}
+.hobbies .box2 .boxleft>h1{
+  margin: 3rem 0;
+  font-weight: 550;
+  color: #475053;
+}
+.hobbies .box3 .boxleft>h1{
+  margin: 3rem 0;
+  font-weight: 550;
+  color: #475053;
+}
+.hobbies .box2{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 5px rgba(111, 127, 141, 0.8);
+}
+.hobbies .box2 .boxleft{
+    text-align: center;
+    
+}
+.hobbies .box2 .boxright img{
+    height: 18em;
+    width: 40rem;
+
+}
+.hobbies .box3{
+    display: none;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 5px rgba(111, 127, 141, 0.8)
+}
+.hobbies .box3 .boxleft{
+    text-align: center;
+    
+}
+.hobbies .box3 .boxright img{
+    height: 18em;
+    width: 40rem;
+
+}
+.contact{
+    padding: 0 15rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 0;
+}
+
+  .contact .left{
+      display: flex;
+      flex-direction: column;
+     width: 40%;
+     box-shadow: 0px 0px 5px 5px rgba(111, 127, 141, 0.8)
+  }  
+  .contact .left .details{
+   padding-left: 2rem;
+   padding-right: 6rem;
+   margin-bottom: 2rem;
+  } 
+  .contact .left .details i{
+    font-weight: 800;
+    color: #475053;
+  }
+  .contact .left .details span{
+    color: black;
+  }
+  .contact .left .form{
+   padding: 0 .5rem;
+  }
+  .contact .left .form .input{
+    margin: 2rem 0rem;
+    font-weight: 550;
+    color: #475053;
+  }
+  .contact .left .form .input span{
+    margin-right: 2.4rem;
+  }
+  .contact .left .form .input input{
+   width: 70%;
+  }
+  .contact .left .form .message{
+    margin: 2rem 0rem;
+    font-weight: 550;
+    color: #475053;
+  }
+  .contact .left .form .message input{
+    height: 10rem;
+    width: 70%;
+  }
+  .contact .left .form .message span{
+    margin-right: .2rem;
+   
+  }
+  .contact .left .form .btn{
+    background-color: #475053;
+    color: white;
+    border-radius: 2rem;
+     width: 80%;
+  }
+  .contact .left .form button:hover{
+    cursor: pointer;
+    background-color: #acdcee;
+    color: black;
+  }
+  .contact .right{
+    background: url(map.png);
+    height: 40rem;
+    width: 50%;
+  }
+  .contact .right .box{
+    background-color: white;
+    border: .1rem solid black;
+    width: 30%;
+  }
+  .contact .right .box .address{
+    font-size: 1.15rem;
+    color: #475053;
+  }
+  .contact .right .box .address2{
+    font-size: 1rem;
+    color: #475053;
+  }
+  .contact .right .box .logo i{
+    color:  #475053;
+  }
+  .contact .right .box .logo span{
+    font-size: 1.3rem;
+    
+  }
+.bottom .endname{
+    display: flex;
+    justify-content: center;
+}
+.bottom{
+    margin-top: 3rem;
+}
+.bottom .socialmedia{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 6rem 0 ;
+}
+.bottom .socialmedia a{
+    margin: 0 .8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media querry */
+@media (max-width:767px){
+    html{
+        font-size: 50%;
+    }
+   header{
+    
+    flex-direction: column;
+   }
+   
+   header .navbar a{
+     margin: 0 1rem;
+   }
+   .about .content{
+    font-size: 2rem;
+    padding: 0 10rem;
+    margin-top: 5rem;
+}
+.skills{
+    display: flex;
+    padding: 0 10rem;
+    flex-direction: column;
+}
+.skills .skillsl{
+    width: 80%;
+}
+.skills .skillsl>p{
+  margin: 1.5rem 0rem;
+}
+.skills .skillsr{
+    width: 80%;
+}
+.skills .skillsr>p{
+  margin: 1.5rem 0rem;
+}
+.education{
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    }
+    .education .box{
+        padding-left: 1.5rem;
+    }
+    .education .box .name{
+        padding: 1.5rem 0;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .education .box .class{
+        padding-left: 1.5rem;
+    }
+    .education .box .date{
+        padding-left: 1.5rem;
+    }
+    .hobbies{
+        padding: 0 10rem;
+    
+    }
+    .hobbies .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .hobbies .box .boxright img{
+        height: 14em;
+        width: 100%;
+        padding: 0 15rem;
+    }
+    .hobbies .box .boxleft{
+        text-align: center;
+    }
+    .hobbies .box .boxleft span{
+       padding: 0 5rem;
+    }
+    .hobbies .box2{
+        display: none;
+    }
+    .hobbies .box .boxright {
+        margin: 2rem 0 3rem 0;
+    }
+    .hobbies .box3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .hobbies .box3 .boxleft{
+        text-align: center;
+        
+    }
+    .hobbies .box3 .boxleft span{
+        padding: 0 5rem;
+    }
+    .hobbies .box3 .boxright {
+        margin: 2rem 0 3rem 0;
+    }
+    .hobbies .box3 .boxright img{
+        height: 14em;
+        width: 100%;
+        padding: 0 15rem;
+
+}
+.contact{
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+  .contact .left{
+      display: flex;
+      flex-direction: column;
+     width: 100%;
+     margin-bottom: 4rem;
+  }  
+  .contact .left .details{
+   padding-left: 2rem;
+   padding-right: 6rem;
+   margin-bottom: 2rem;
+  } 
+  
+  .contact .left .form{
+   padding: 0 1rem;
+   margin-bottom: 3rem;
+  }
+  .contact .left .form .input{
+    margin: 1.8rem 0rem;
+  }
+  .contact .left .form .input span{
+    margin-right: 2.7rem;
+  }
+  .contact .left .form .input input{
+   width: 70%;
+  }
+  .contact .left .form .message{
+    margin: 2rem 0rem;
+  }
+  .contact .left .form .message input{
+    height: 10rem;
+    width: 70%;
+  }
+  .contact .left .form .message span{
+    margin-right: 0rem;
+   
+  }
+  .contact .left .form .btn{
+    border-radius: 2rem;
+    margin-left: 5rem;
+     width: 70%;
+  }
+ 
+  .contact .right{
+    background: url(map.png);
+    height: 40rem;
+    width: 100%;
+    box-shadow: 0px 0px 5px 5px rgba(111, 127, 141, 0.8);
+  }
+  .contact .right .box{
+    background-color: white;
+    border: .1rem solid black;
+    width: 30%;
+  }
+  .contact .right .box .address{
+    font-size: 1.15rem;
+  }
+  .contact .right .box .address2{
+    font-size: 1rem;
+  }
+
+  .contact .right .box .logo span{
+    font-size: 1.3rem;
+  }
+}
+
+
+@media(max-width:480px){
+   header .navbar{
+    display: none;
+   }
+   .about .content{
+    font-size: 2rem;
+    padding: 0 5rem;
+    margin-top: 3rem;
+}
+.skills{
+    display: flex;
+    padding: 0 2rem;
+    flex-direction: column;
+}
+.skills .skillsl{
+    width: 80%;
+}
+.skills .skillsl>p{
+  margin: 1.5rem 0rem;
+}
+.skills .skillsr{
+    width: 80%;
+}
+.skills .skillsr>p{
+  margin: 1.5rem 0rem;
+}
+.education{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    }
+    .education .box{
+        padding-left: 1rem;
+    }
+    .education .box .name{
+        padding: 1rem 0;
+        font-size: 1.8rem;
+        font-weight: 550;
+    }
+    .education .box .class{
+        padding-left: 1rem;
+        font-size: 1.8rem;
+    }
+    .education .box .date{
+        padding-left: 1rem;
+        font-size: 1.8rem;
+    }
+    .hobbies{
+        padding: 0 2rem;
+    
+    }
+    
+    .hobbies .box .boxright img{
+        height: 14em;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .hobbies .box .boxleft{
+        text-align: center;
+    }
+    .hobbies .box .boxleft span{
+       padding: 0 5rem;
+    }
+    .hobbies .box2{
+        display: none;
+    }
+    .hobbies .box .boxright {
+        margin: 2rem 0 3rem 0;
+    }
+    .hobbies .box3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .hobbies .box3 .boxleft{
+        text-align: center;
+        
+    }
+    .hobbies .box3 .boxleft span{
+        padding: 0 5rem;
+    }
+    .hobbies .box3 .boxright {
+        margin: 2rem 0 3rem 0;
+    }
+    .hobbies .box3 .boxright img{
+        height: 14em;
+        width: 100%;
+        padding: 0 2rem;
+
+}
+    .contact{
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+      .contact .left{
+          display: flex;
+          flex-direction: column;
+         width: 100%;
+         margin-bottom: 4rem;
+         padding-left: 1rem;
+      }  
+      .contact .left .details{
+       padding-left: 0rem;
+       padding-right: 0rem;
+       margin-bottom: 2rem;
+      } 
+     
+     
+      .contact .left .form{
+       padding: 0 0rem;
+       margin-bottom: 3rem;
+      }
+      .contact .left .form .input{
+        margin: 1.8rem 0rem;
+      }
+      .contact .left .form .input span{
+        margin-right: 2.7rem;
+      }
+      .contact .left .form .input input{
+       width: 70%;
+      }
+      .contact .left .form .message{
+        margin: 2rem 0rem;
+      }
+      .contact .left .form .message input{
+        height: 10rem;
+        width: 70%;
+      }
+      .contact .left .form .message span{
+        margin-right: 0rem;
+       
+      }
+      .contact .left .form .btn{
+        border-radius: 2rem;
+        margin-left: 5rem;
+         width: 70%;
+      }
+      
+      .contact .right{
+        background: url(map.png);
+        height: 40rem;
+        width: 100%;
+      }
+      .contact .right .box{
+        background-color: white;
+        border: .1rem solid black;
+        width: 30%;
+      }
+      .contact .right .box .address{
+        font-size: .7rem;
+      }
+      .contact .right .box .address2{
+        font-size: .7rem;
+      }
+     
+      .contact .right .box .logo span{
+        font-size: .9rem;
+      }
+      
+}
